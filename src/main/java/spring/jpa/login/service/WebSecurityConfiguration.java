@@ -35,9 +35,9 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         System.out.println("Authorization Called========>");
         http.authorizeRequests()
-                .antMatchers("/sublabh/user").hasAnyRole("USER","ADMIN")
+                .antMatchers("/subhlabh/user").hasAnyRole("USER","ADMIN")
                 //.antMatchers("/sublabh/login").hasRole("USER")
-                .antMatchers("/sublabh/login").permitAll()
+                .antMatchers("/subhlabh/login").permitAll()
                 .antMatchers("/h2-console").permitAll()
                 .and().formLogin();
         http.csrf().disable();
