@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>spring-login-api</groupId>
 	<artifactId>login-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>login-api</name>
 	<description>Api to provide login from db</description>
 
